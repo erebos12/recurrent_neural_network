@@ -1,4 +1,12 @@
-# Different ways to improve the RNN model
+# RNN to predict Googles stock price in JAN 2017
+
+## Train and Predict 
+
+ATTENTION: Use python 2.7
+
+    python rnn.py
+
+## Different ways to improve the RNN model
 
 1. Getting more training data: we trained our model on the past 5 years of the Google Stock Price but it would be even better to train it on the past 10 years.
 2. Increasing the number of timesteps: the model remembered the stock prices from the 60 previous financial days to predict the stock price of the next day. That’s because we chose a number of 60 timesteps (3 months). You could try to increase the number of timesteps, by choosing for example 120 timesteps (6 months).
